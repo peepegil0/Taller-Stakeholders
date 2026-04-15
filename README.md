@@ -1,16 +1,16 @@
 # Taller Práctico 01: Stakeholders y Materialidad en el Sector Web
 
 ## Descripción
-En este proyecto realizo un análisis de **materialidad** aplicado a una consultora web, identificando los **grupos de interés** (*stakeholders*) y los aspectos críticos **ASG** (Ambiental, Social y Gobernanza). El objetivo consiste en mapear el ecosistema de desarrollo tecnológico y estructurar la información recabada mediante *XML*, justificando las acciones para su gestión sostenible sin dejar de lado el rigor académico.
+En este proyecto realizo un análisis de **materialidad** aplicado a una consultora web, identificando los **grupos de interés** (*stakeholders*) y los aspectos críticos **ASG** (Ambiental, Social y Gobernanza). El objetivo trata de estructurar la información recabada mediante *XML*.
 
 ## Contenido del repositorio
 - `.xml` → Archivo *XML* bien formado con la estructura de la empresa sostenible, sus *stakeholders* y temas materiales.
-- `README.md` → Documentación profesional del proyecto con jerarquía de títulos y referencias bibliográficas.
+- `README.md` → Documentación dr todo el trabajo y redactando en el mismo la *fase 1*
 
 ## Herramientas utilizadas
 - **Visual Studio Code** (para estructuración de datos y código)
 - **GitHub** (plataforma de control de versiones y entrega)
-- **Bases de Datos Académicas** (*Google Scholar*, *arXiv*, *Dialnet*)
+- **Bases de Datos Académicas** (*Dialnet* (en mi caso))
 
 ## Objetivo
 El objetivo de esta práctica es aprender a:
@@ -22,8 +22,33 @@ El objetivo de esta práctica es aprender a:
 
 ## Fases del Proyecto
 
-### Fase 1: Investigación Rigurosa
-Identificación fundamentada de 3 **grupos de interés** clave y 3 **temas materiales** (como la eficiencia energética del código, la accesibilidad universal o la privacidad de datos) a través de fuentes de investigación académica.
+### Fase 1: Investigación rigurosa
+
+#### 3 grupos de interés (stakeholders)
+
+1. **Clientes / Empresas contratantes**
+Son quienes solicitan los servicios web. Esperan calidad, seguridad y buen rendimiento.
+
+2. **Usuarios finales**
+Las personas que usan las aplicaciones web. Les importa la accesibilidad, velocidad y privacidad.
+
+3. **Desarrolladores / Equipo técnico**
+Encargados de crear y mantener el software. Buscan eficiencia principalmente, tambien buenas prácticas y sostenibilidad del código.
+
+#### 3 temas materiales
+
+1. **Eficiencia energética del código** (Ambiental)
+Un código optimizado consume menos recursos, reduciendo el consumo energético y la huella de carbono.
+
+2. **Accesibilidad universal** (Social)
+Asegurar que cualquier persona (incluyendo personas con discapacidad) pueda usar la web sin barreras.
+
+3. **Privacidad y protección de datos** (Gobernanza)
+Proteger la información de los usuarios.
+
+### Referencias (formato IEEE)
+
+S. Murugesan, “Harnessing Green IT: Principles and Practices,” *IT Professional*, vol. 10, no. 1, pp. 24–33, 2008.
 
 ### Fase 2: Estructuración en XML
 Creación del archivo `materialidad.xml` partiendo del nodo raíz `<empresa_sostenible>`. Se han implementado nodos de `<stakeholder>` con sus respectivos atributos de importancia, y nodos de `<tema_material>` clasificando su nivel de impacto **ASG**.
