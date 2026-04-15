@@ -1,7 +1,7 @@
-# Taller Práctico 01: Stakeholders y Materialidad en el Sector Web
+# Taller 01: Stakeholders y Materialidad en el Sector Web
 
 ## Descripción
-En este proyecto realizo un análisis de **materialidad** aplicado a una consultora web, identificando los **grupos de interés** (*stakeholders*) y los aspectos críticos **ASG** (Ambiental, Social y Gobernanza). El objetivo trata de estructurar la información recabada mediante *XML*.
+En este proyecto realizo un análisis de **materialidad** aplicado a una consultora web, identificando los **grupos de interés** (*stakeholders*) y los aspectos críticos **ASG** (Ambiental, Social y Gobernanza). El objetivo trata de estructurar la información recabada mediante un *XML*.
 
 ## Contenido del repositorio
 - `.xml` → Archivo *XML* bien formado con la estructura de la empresa sostenible, sus *stakeholders* y temas materiales.
@@ -51,7 +51,7 @@ Proteger la información de los usuarios.
 S. Murugesan, “Harnessing Green IT: Principles and Practices,” *IT Professional*, vol. 10, no. 1, pp. 24–33, 2008.
 
 ### Fase 2: Estructuración en XML
-Creación del archivo `materialidad.xml` partiendo del nodo raíz `<empresa_sostenible>`. Se han implementado nodos de `<stakeholder>` con sus respectivos atributos de importancia, y nodos de `<tema_material>` clasificando su nivel de impacto **ASG**.
+Creación del archivo `materialidad.xml` partiendo de la raíz `<empresa_sostenible>`. Se han añadido nodos de `<stakeholder>` con sus respectivos atributos de importancia, y nodos de `<tema_material>` clasificandolos en su nivel de impacto **ASG**.
 
 ### Fase 3: Documentación y GitHub
 Subida del código al repositorio y elaboración de este documento *MD* aplicando el formato requerido.
