@@ -24,7 +24,7 @@ El objetivo de esta práctica es aprender a:
 
 ### Fase 1: Investigación rigurosa
 
-#### 3 grupos de interés (stakeholders)
+#### Grupos de interés (stakeholders)
 
 1. **Clientes / Empresas contratantes**
 Son quienes solicitan los servicios web. Esperan calidad, seguridad y buen rendimiento.
@@ -35,7 +35,7 @@ Las personas que usan las aplicaciones web. Les importa la accesibilidad, veloci
 3. **Desarrolladores / Equipo técnico**
 Encargados de crear y mantener el software. Buscan eficiencia principalmente, tambien buenas prácticas y sostenibilidad del código.
 
-#### 3 temas materiales
+#### Temas materiales
 
 1. **Eficiencia energética del código** (Ambiental)
 Un código optimizado consume menos recursos, reduciendo el consumo energético y la huella de carbono.
@@ -54,8 +54,6 @@ S. Murugesan, “Harnessing Green IT: Principles and Practices,” *IT Professio
 Creación del archivo `materialidad.xml` partiendo del nodo raíz `<empresa_sostenible>`. Se han implementado nodos de `<stakeholder>` con sus respectivos atributos de importancia, y nodos de `<tema_material>` clasificando su nivel de impacto **ASG**.
 
 ### Fase 3: Documentación y GitHub
-Subida del código al repositorio y elaboración de este documento *Markdown* aplicando el formato requerido para su correcta visualización y evaluación.
+Subida del código al repositorio y elaboración de este documento *MD* aplicando el formato requerido.
 
-## Conclusión
-Este taller permite pasar de la teoría a la práctica, entendiendo que en el desarrollo de *software* no trabajamos en una burbuja. Nuestras aplicaciones consumen energía y gestionan datos sensibles, por lo que es vital integrar la **sostenibilidad** en el diseño tecnológico desde el primer momento.
 
